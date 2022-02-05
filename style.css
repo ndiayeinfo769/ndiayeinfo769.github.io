@@ -1,0 +1,159 @@
+#principal
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: auto;
+}
+
+#bloc_2
+{
+    background-color: blueviolet;
+    height: 630px;
+}
+
+#bloc_3
+{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#bloc_2 header
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#menu a, header h1 
+{
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+#menu ul a:hover
+{
+    background-color: indigo;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 2em;
+}
+
+section 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name
+{
+    color: floralwhite;
+    width: auto;
+    margin-bottom: 1px;
+    background-color: indigo;
+    width: 50%;
+    text-align: center;
+}
+
+.function
+{
+    width: auto;
+    height: auto;
+    color: floralwhite;
+    font-size: 5em;
+    margin-bottom: 1px;
+}
+
+.description
+{
+    color: whitesmoke;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+button
+{
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+button:hover {
+    background-color: crimson;
+  }
+
+section article, section aside
+{
+    width: auto;
+}
+
+section aside
+{
+    width: 50%;
+}
+
+section article
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+section aside img
+{
+    width: 500px;
+
+}
+
+section aside p
+{
+    text-align: center;
+}
+
+#bloc_3 img
+{
+    width: 50%;
+}
+
+#searchbar
+{
+    margin-left: 15%;
+    margin-bottom: 1%;
+    padding:15px;
+    border-radius: 10px;
+ }
+
+ input[type=text] 
+ {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+
+ input[type=text]:focus 
+ {
+    width: 70%;
+ }
+
